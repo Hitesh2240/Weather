@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #9b82c5, #313f56);
+    width: 100%;
+    height: 100vh;
+    padding-top: 49px;
+}
+.container{
+    width: 25%;
+    height: 40%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255,0.3);
+}
+.container img{
+    min-width: 80%;
+    height: 50%;
+    border-radius: 10%;
+    border: 0;
+}
+.srh input{
+    border: 0;
+    outline: 0;
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.srh input::placeholder{
+    color: black;
+}
+.srh button{
+    width: 16%;
+    height: 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    color: black;
+}
+
